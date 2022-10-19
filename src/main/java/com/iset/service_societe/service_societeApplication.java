@@ -1,21 +1,21 @@
-package com.iset.service;
+package com.iset.service_societe;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.iset.service.dao.SocieteRepository;
-import com.iset.service.entity.Societe;
+import com.iset.service_societe.dao.SocieteRepository;
+import com.iset.service_societe.entity.Societe;
 
 @SpringBootApplication
-public class ServiceApplication implements CommandLineRunner {
+public class service_societeApplication implements CommandLineRunner {
 
 	@Autowired
 	SocieteRepository societeRepository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceApplication.class, args);
+		SpringApplication.run(service_societeApplication.class, args);
 	}
 
 	@Override

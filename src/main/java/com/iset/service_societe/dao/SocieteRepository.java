@@ -1,4 +1,4 @@
-package com.iset.service.dao;
+package com.iset.service_societe.dao;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 
-import com.iset.service.entity.Societe;
+import com.iset.service_societe.entity.Societe;
 
 @RepositoryRestResource
 public interface SocieteRepository extends JpaRepository<Societe, Long> {

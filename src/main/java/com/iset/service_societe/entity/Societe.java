@@ -1,4 +1,4 @@
-package com.iset.service.entity;
+package com.iset.service_societe.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
